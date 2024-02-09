@@ -1,0 +1,16 @@
+Create Main Accounting Report Use Case Description:
+
+Use Case: Main Accounting Procedure
+	
+Context: A timer is used to auto-run the main accounting procedure once a week
+	
+Actors: Timer
+	
+Main Success Scenario:
+	1. On Fridays at midnight a timer goes off in the ChocAn Data Base
+	2. The main accounting procedure is ran once this timer goes off
+	3. All reports are created saved as files to the disk.
+	4. The timer resets and is set to go off once again the following Friday at midnight.
+	
+Extensions:
+	N/A

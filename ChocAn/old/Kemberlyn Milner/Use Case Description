@@ -1,0 +1,20 @@
+Use Case: Bill Healthcare Includes Customer Validation
+
+Context: The Provider uses the ChocAn Data center to verify Member's card number.
+
+Actors: Customer, Provider, ChocAn Data Center
+
+Main Success Scenario:
+	1. The member hands their card to the Provider
+	2. Provider uses the card reader on the terminal
+	3. Terminal dials the ChocAn Center
+	4. ChocAn Center verifies the member's number
+	
+Extensions:
+	4.1. If the number is Valid
+		4a.1. "Validated" will appear
+		4b.1. Will continue to the Provider Directory
+	4.2. If the number is Invalid
+		4a.2. "Invalid number" or "Member suspended" will appear
+		4b.2. Member's fees will be revealed
+		4c.2. Member status will be set to suspended

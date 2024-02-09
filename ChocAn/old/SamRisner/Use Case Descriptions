@@ -1,0 +1,30 @@
+Generate Provider Directory
+
+Use Case: Generate Provider Directory
+
+Context: ChocAn Data Center creates a provider directory so the providers can find the appropriate service code according to the service that is being billed.
+
+Actors: ChocAn Data Center
+
+Main Success Scenario:
+	1. The service names are arranged in alphabetical order.
+	2. Each service is printed with its corresponding service code and fees.
+
+Extensions: Not Applicable
+
+
+Request Provider Directory (Includes ChocAn Worker Validation & Generate Provider Directory)
+
+Use Case: Request Provider Directory
+
+Context: The Provider requests the directory to look up the number of the service that was provided.
+
+Actors: Provider
+
+Main Success Scenario:
+	1. The system validates the ChocAn worker.
+	2. Provider requests the Provider Directory be sent to them.
+	3. The Provider Directory is generated.
+	4. Provider is emailed the directory.
+
+Extensions: Not Applicable

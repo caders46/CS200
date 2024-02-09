@@ -1,0 +1,517 @@
+                Use Case: Create a Report
+
+                Context: The actor intends to create a variety of reports whether that be on demand or at a scheduled time.
+
+                Actors: Manager, Timer
+
+                Main Success Scenario:
+                    1. The system validates the ChocAn worker.
+                    2. A list of all available reports is shown for the actor to select.
+                    3. The actor selects the report to be created.
+                    4. The report is created to its own file and saved on a disk.
+                    5. The actor is asked to exit or return to list of all available reports
+
+                Extensions:
+                    3a. EFT Data Report is selected to be created. It includes the provider name, provider number, and the amount to be transferred.
+                    3b. Accounts Payable report is selected to be created. It includes every provider to be paid that week, the number of consultations each had,
+                        and his or her total fee for that week. It also includes the total number of providers who provided services that week, the total number of
+                        consultations that week, and the total amount of fees to be paid that week.
+                    3c. Provider Summary Report is selected to be created. It includes a list of services the provider has provided that week. It includes all the same
+                        information the provider entered on their form in the order in which the computer received the inputs. At the end of the report there is a summary
+                        with the total number of consultations for that providers and the total fee for that week.
+                    3d. Customer Report is selected to be created. It includes a list of all services provided to the customer for that week, sorted by the date of service. It also 
+                        includes Member Name, Member Number, Member Street Address, Member City, Member State, Member Zip Code, and for each service provided it includes date
+                        of service, provider name, and service name.
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Create EFT Data Report extends Create a Report
+
+                Context: The actor intends to create the EFT Data Report
+
+                Actors: Manager, Timer
+
+                Main Success Scenario:
+                    3a.1. The Create EFT Data Report option is selected.
+                    3a.2. The following data is generated: Provider name, provider number, and amount of money to be transfered.
+                    3a.3. The report is saved as a file to the disk.
+                    3a.4. The actor is asked to exit or return to list of all available reports
+
+                Extensions:
+                    N/A
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Create Accounts Payable Report extends Create a Report
+
+                Context: The actor intends to create the Accounts Payable Report
+
+                Actors: Manager, Timer
+
+                Main Success Scenario:
+                    3b.1. The Create Accounts Payable Report option is selected.
+                    3b.2. The following data is generated: Every provider to be paid that week, the number of consultations each had, 
+                        his or her total fee for that week, the total number of providers who provided services that week,
+                        the total number of consultations that week, and the total summation of fees to be paid that week.
+                    3b.3. The report is saved as a file to the disk.
+                    3b.4. The actor is asked to exit or return to list of all available reports
+                    
+                Extensions:
+                    N/A
+            </pre>
+            <hr>
+
+            <pre>
+                Use Case: Create Provider Summary Report extends Create a Report
+
+                Context: The actor intends to create the Provider Summary Report
+
+                Actors: Manger, Timer
+
+                Main Success Scenario:
+                    3c.1. The Create Provider Summary Report is selected to be generated.
+                    3c.2. The following data is generated: A list of services the provider has provided that week,
+                        all the same data the provider entered on their form in the order the computer received the data,
+                        and at the end there is a list of all the consultations for said provider along with their total fee for the week.
+                    3c.3. The report is saved as a file to the disk.
+                    3c.4. The actor is asked to exit or return to list of all available reports
+                    
+                Extensions:
+                    N/A
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Create Customer Report extends Create a Report
+
+                Context: The actor intends to create the Customer Report
+
+                Actors: Manager, Timer
+
+                Main Success Scenario:
+                    3d.1. The Create Customer Report option is selected.
+                    3d.2. The following data is generated: A list of all services provided to the customer for that week, sorted by the date of service. It also 
+                        includes Member Name, Member Number, Member Street Address, Member City, Member State, Member Zip Code, and for each service provided it includes date
+                        of service, provider name, and service name.
+                    3d.3. The report is saved as a file to the disk.
+                    3d.4. The actor is asked to exit or return to list of all available reports	  
+
+                Extensions:
+                    N/A
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Request Provider Directory
+
+                Context: The Provider requests the directory to look up the number of the service that was provided.
+                
+                Actors: Provider
+                
+                Main Success Scenario:
+                    1. The system validates the ChocAn worker.
+                    2. Provider requests the Provider Directory be sent to them.
+                    3. The Provider Directory is generated.
+                    4. Provider is emailed the directory.
+                    5. The system returns the user to the main menu or exits the program at the user's discretion.
+                
+                Extensions: 
+                    N/A
+            </pre>
+            <hr>
+
+            <pre>
+            	Use Case: Membership Management
+            		
+				Context: The software is operating under a daytime interactive mode for data center operators. A data center operator chooses to make changes to the database regarding a new member or a change or loss of an existing member.
+
+				Actors: ChocAn Data Center Operators
+
+				Main Success Scenario:
+				1. The system gives the ChocAn Data Operator the choice of adding, removing, or updating an entry in member records from the Operator Menu.
+				2. The ChocAn Data Operator makes their selection and the database is changed according to the input of the operator.
+				3. The system returns the user to the main menu or exits the program at the user's discretion.
+				
+				Extensions: 
+					N/A    
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Update Member Info extends Membership Management
+                
+				Context: The actor intends to alter data in an existing member record in the database.
+
+				Actors: ChocAn Data Center Operators
+				
+				Main Success Scenario: 
+				2c.1. The ChocAn Data Operator selects the Update Member Info option from the Operator Menu.
+				2c.2. A menu comes up which shows a directory of member records.
+				2b.3. The operator searches the member records for the member he wants to edit and selects the file.
+				2c.4. A menu comes up with the chosen member's relevant information on record.
+				2c.5. The operator can freely change the information from this menu. Once satisfied, the operator selects the button to confirm changes.
+				2c.6. The menu closes and the data file of the chosen member record entry is deleted and purged from the data center.
+				2c.7. The information input into the menu is compiled into a new member record data file that is then saved to the Data Center.
+				2c.8. The system returns the user to the operator menu or exits the program at the user's discretion.
+
+				Extensions: 
+					N/A
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Add Member extends Membership Management
+				
+				Context: The actor intends to add a new member record to the database.
+				
+				Actors: ChocAn Data Center Operators
+				
+				Main Success Scenario: 
+				2a.1. The ChocAn Data Operator selects the Add Member option from the Operator Menu.
+				2a.2. A menu comes up which the operator types relevant member information in.
+				2a.3. Once the operator is satisfied with the information, he presses the button that confirms the add.
+				2a.4. The menu closes and the information input into the menu is compiled into a member record data file that is saved to the Data Center.
+				2a.5. The system returns the user to the operator menu or exits the program at the user's discretion.
+			
+				Extensions: 
+					N/A
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Remove Member extends Membership Management
+				
+				Context: The actor intends to remove an existing member record from the database.
+				
+				Actors: ChocAn Data Center Operators
+				
+				Main Success Scenario:
+				2b.1. The ChocAn Data Operator selects the Remove Member option from the Operator Menu.
+				2b.2. A menu comes up which shows a directory of member records.
+				2b.3. The operator searches the member records for the member he wants to delete, selects the file, and hits the delete button.
+				2b.4. The menu closes and the data file of the chosen member record entry is deleted and purged from the Data Center.
+				2b.5. The system returns the user to the operator menu or exits the program at the user's discretion.
+			
+				Extensions: 
+					N/A
+            </pre>
+            <hr>
+            <pre>
+            	Use Case: Provider Management
+
+				Context: The software is operating under a daytime interactive mode for data center operators. A data center operator chooses to make changes to the database regarding a new provider or a change or loss of an existing provider.
+
+				Actors: ChocAn Data Center Operators
+
+				Main Success Scenario:
+				1. The system gives the ChocAn Data Operator the choice of adding, removing, or updating an entry in provider records from the Operator Menu.
+				2. The ChocAn Data Operator makes their selection and the database is changed according to the input of the operator.
+				3. The system returns the user to the main menu or exits the program at the user's discretion.
+				
+				Extensions: 
+					N/A    
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Add Provider extends Provider Management
+
+				Context: The actor intends to add a new provider record to the database.
+
+				Actors: ChocAn Data Center Operators
+
+				Main Success Scenario: 
+				2a.1. The ChocAn Data Operator selects the Add Provider option from the Operator Menu.
+				2a.2. A menu comes up which the operator types relevant provider information in.
+				2a.3. Once the operator is satisfied with the information, he presses the button that confirms the add.
+				2a.4. The menu closes and the information input into the menu is compiled into a provider record data file that is saved to the Data Center.
+				2a.5. The system returns the user to the operator menu or exits the program at the user's discretion.
+				
+				Extensions: 
+					N/A
+            </pre>
+            <hr>
+            <pre>
+				Use Case: Remove Provider extends Provider Management
+				
+				Context: The actor intends to remove an existing provider record from the database.
+				
+				Actors: ChocAn Data Center Operators
+				
+				Main Success Scenario:
+				2b.1. The ChocAn Data Operator selects the Remove Provider option from the Operator Menu.
+				2b.2. A menu comes up which shows a directory of provider records.
+				2b.3. The operator searches the provider records for the provider he wants to delete, selects the file, and hits the delete button.
+				2b.4. The menu closes and the data file of the chosen provider record entry is deleted and purged from the Data Center.
+				2b.5. The system returns the user to the operator menu or exits the program at the user's discretion.
+				
+				Extensions: 
+					N/A
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Update Provider Info extends Provider Management
+
+				Context: The actor intends to alter data in an existing provider record in the database.
+
+				Actors: ChocAn Data Center Operators
+
+				Main Success Scenario: 
+				2c.1. The ChocAn Data Operator selects the Update Provider Info option from the Operator Menu.
+				2c.2. A menu comes up which shows a directory of provider records.
+				2b.3. The operator searches the provider records for the provider he wants to edit and selects the file.
+				2c.4. A menu comes up with the chosen provider's relevant information on record.
+				2c.5. The operator can freely change the information from this menu. Once satisfied, the operator selects the button to confirm changes.
+				2c.6. The menu closes and the data file of the chosen provider record entry is deleted and purged from the data center.
+				2c.7. The information input into the menu is compiled into a new provider record data file that is then saved to the Data Center.
+				2c.8. The system returns the user to the operator menu or exits the program at the user's discretion.
+
+				Extensions: 
+					N/A
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Customer Validation
+
+                Context: The Provider uses the ChocAn Data center to verify Member's card number.
+
+                Actors: Customer, Provider, ChocAn Data Center
+
+                Main Success Scenario:
+                    1. The member hands their card to the Provider
+                    2. Provider uses the card reader on the terminal
+                    3. Terminal dials the ChocAn Center
+                    4. ChocAn Center verifies the member's number
+                    
+                Extensions:
+                    4.1. If the number is Valid
+                        4a.1. "Validated" will appear
+                        4b.1. The system will continue to the Provider Directory
+                    4.2. If the number is Invalid
+                        4a.2. "Invalid number" or "Member suspended" will appear
+                        4b.2. Member's fees will be revealed
+                        4c.2. Member status will be set to suspended
+                        4d.2. The system will exit the program.
+            </pre>
+            <hr>
+            <pre>
+
+                Worker Validation Use Case Description:
+
+                Use Case: ChocAn Worker Validation
+                
+                Context: The actor logins in to the system and can perform a variety of actions
+                    depending on their role
+                    
+                Actors: Provider, Operator, Manager
+                
+                Main Success Scenario:
+                    1. The terminal prompts the user to select provider or operator mode
+                    2. The User enters their credentials 
+                    3. The terminal validates the credentials
+                    4. The terminal opens a menu allowing the user to interact with the software according to their role
+                Extensions
+                    1a. Provider mode
+                        1a.1. The terminal prompts the user for a provider number
+                        1a.2. Continue at 3
+                    1b. Operator mode
+                        1b.1. The terminal prompts the user for a username and password
+                        1b.2. Continue at 3
+                    2a. The user provides invalid credentials
+                        2a.1. The terminal prompts the user: "Invalid credentials"
+                        2a.2. Continue at 2
+                    4a. The user is a provider
+                        4a.1. The terminal displays a menu with all of the provider options (Request directory, bill healthcare, access reports)
+                    4b. The user is an operator (But not a manager)
+                        4b.1. The terminal displays a menu with all of the operator options (Edit members, Edit providers)
+                    4c. The user is a manager.
+                        4c.1. The terminal opens a menu with all of the manager options (Edit members, edit providers, access reports)
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Provider Login extends ChocAn Worker Validation:
+
+                Context: Actor is logging on as a provider.
+
+                Actors: Provider
+
+                Main success scenario: 
+                    1. Provider keys 1 to log in as an Provider
+                    2. Provider enters Provider number
+                    3. The terminal validates the provider number
+                    4. The terminal displays a menu with all of the options for providers
+                    
+                Extensions:
+                    2a. Invalid provider number
+                        2a.1. The terminal prompts "Incorrect credentials"
+                        2a.2. Return to 2.
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Operator Login extends Worker Validation:
+
+                Context: Actor is logging on as an operator.
+
+                Actors: Operator
+
+                Main success scenario: 
+                    1. Operator keys 2 to log in as an operator
+                    2. Operator enters username and password
+                    3. The terminal validates the operator credentials
+                    4. The terminal displays a menu with all of the options for operators
+                    
+                Extensions:
+                    2a. Invalid credentials
+                        2a.1. The terminal prompts "Incorrect credentials"
+                        2a.2. Return to 2.
+
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Manager Login extends Worker Validation:
+
+                Context: Actor is logging on as an manager
+
+                Actors: Manager
+
+                Main success scenario: 
+                    1. Manager keys 2 to log in as an operator
+                    2. Manager enters username and password
+                    3. The terminal validates the manager credentials
+                    4. The terminal displays a menu with all of the options for managers
+                    
+                Extensions:
+                    2a. Invalid credentials
+                        2a.1. The terminal prompts "Incorrect credentials"
+                        2a.2. Return to 2.
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Invalid Login extends Worker Validation
+
+                Context: The actor enters invalid login credentials
+                    
+                Actors: Provider, Operator, Manager
+
+                Main Success Scenario:
+                    1. The terminal prompts the user to select provider or operator mode
+                    2. The User enters their credentials 
+                    3. The terminal attempts to validate the credentials
+                    4. The terminal rejects the login attempt, prompts "Invalid credentials," and returns to stage 2
+                    
+                Extensions:
+                    N/A
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Bill Healthcare
+
+                Context: The actor intends to bill a customer for a specific healthcare service used through ChocAn.
+
+                Actors: Provider
+
+                Main Success Scenario:
+                    1. The provider enters their provider number and gains access to the terminal.
+                    2. The provider passes the customer's member card through the reader and the member is verified by the ChocAn Data Center.
+                    3. After being provided a service, the customer's member card is again swiped through the reader.
+                    4. The provider keys in the date of service as MM-DD-YYYY.
+                    5. The provider uses the Provider Directory and finds the appropriate six digit service code that corresponds with the provided service.
+                    6. Provider keys in service code, and name of the service that corresponds with the given code is provided.
+                    7. The provider may enter comments about the service.
+                    8. The product writes a record to disk including the current date and time (MM-DD-YYYY, HH:MM:SS), the date the service was provided (MM-DD-YYYY), the provider number,
+                    the member number, the service code, and any added comments.
+                    9. The product finds the fee to be paid and displays it for the provider.
+                    10. The provider fills a form including the current date and time, date the service was provided, the member name and number, service code, and fee to be paid.
+                    11. At the end of the week the provider totals the fees to verify the amount to be paid to said provider by ChocAn for the week.
+                Extensions.
+                    1a. The provider enters an invalid login number.
+                    2a/3a. The member is marked invalid by the Data Center.
+                    2b/3b. The member is marked as suspended by the Data Center.
+                    6a. Invalid service code entered.
+            </pre>
+            <hr>
+            <pre>
+                Use Case: Run Main Accounting Procedure
+                    
+                Context: A timer is used to auto-run the main accounting procedure once a week
+                    
+                Actors: Timer
+                    
+                Main Success Scenario:
+                    1. On Fridays at midnight a timer goes off in the ChocAn Data Base
+                    2. The main accounting procedure is ran once this timer goes off
+                    3. All reports are created saved as files to the disk.
+                    4. The timer resets and is set to go off once again the following Friday at midnight.
+                    
+                Extensions:
+                    N/A
+            </pre>
+            <hr>
+            <pre>
+            	Use Case: Run Main Accounting Procedure includes Create Customer Report
+            	
+            	Context: A time goes off and creates the Customer Report as part of the Run Main Accounting Procedure
+            	
+            	Actors: Timer
+            	
+            	Main Success Scenario:
+            		1. A timer determines the main accounting procedure to run at midnight on Fridays.
+            		2. The following data is generated: A list of all services provided to the customer for that week, sorted by the date of service. It also 
+                        includes Member Name, Member Number, Member Street Address, Member City, Member State, Member Zip Code, and for each service provided it includes date
+                        of service, provider name, and service name.
+                    3. The report is saved as a file to the disk.
+                    4. The system continues to generate the other reports or if finished resets the timer and exits.
+            	
+            	Extensions:
+            		N/A
+            </pre>
+            <hr>
+            <pre>
+            	Use Case: Run Main Accounting Procedure includes Create Provider Summary Report
+            	
+            	Context: A time goes off and creates the Provider Summary Report as part of the Run Main Accounting Procedure
+            	
+            	Actors: Timer
+            	
+            	Main Success Scenario:
+            		1. A timer determines the main accounting procedure to run at midnight on Fridays.
+            		2. The following data is generated: A list of services the provider has provided that week,
+                        all the same data the provider entered on their form in the order the computer received the data,
+                        and at the end there is a list of all the consultations for said provider along with their total fee for the week.
+                    3. The report is saved as a file to the disk.
+                    4. The system continues to generate the other reports or if finished resets the timer and exits.
+            	
+            	Extensions:
+            		N/A
+            </pre>
+            <hr>
+            <pre>
+            	Use Case: Run Main Accounting Procedure includes Create Accounts Payable Summary Report
+            	
+            	Context: A time goes off and creates the Accounts Payable Report Report as part of the Run Main Accounting Procedure
+            	
+            	Actors: Timer
+            	
+            	Main Success Scenario:
+					1. A timer determines the main accounting procedure to run at midnight on Fridays.
+            		2.  The following data is generated: Every provider to be paid that week, the number of consultations each had, 
+                        his or her total fee for that week, the total number of providers who provided services that week,
+                        the total number of consultations that week, and the total summation of fees to be paid that week.
+                    3. The report is saved as a file to the disk.
+                    4. The system continues to generate the other reports or if finished resets the timer and exits.
+            	
+            	Extensions:
+            		N/A
+            </pre>
+            <hr>
+            <pre>
+            	Use Case: Run Main Accounting Procedure includes Create EFT Data Report
+            	
+            	Context: A time goes off and creates the EFT Data Report as part of the Run Main Accounting Procedure
+            	
+            	Actors: Timer
+            	
+            	Main Success Scenario:
+            	    1. A timer determines the main accounting procedure to run at midnight on Fridays.
+            		2. The following data is generated: Provider name, provider number, and amount of money to be transfered.
+                    3. The report is saved as a file to the disk.
+                    4. The system continues to generate the other reports or if finished resets the timer and exits.
+            	
+            	Extensions:
+            		N/A
+            </pre>
+               	

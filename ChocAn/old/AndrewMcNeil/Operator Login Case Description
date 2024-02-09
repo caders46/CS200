@@ -1,0 +1,18 @@
+Operator Login Case Description:
+
+Use Case: Operator Login:
+
+Context: Actor is logging on as an operator. 
+
+Actors: Operator
+
+Main success scenario: 
+	1. Operator keys 2 to log in as an operator
+	2. Operator enters username and password
+	3. The terminal validates the operator credentials
+	4. The terminal displays a menu with all of the options for operators
+	
+Extensions:
+	2a. Invalid credentials
+		2a.1. The terminal prompts "Incorrect credentials"
+		2a.2. Return to 2.

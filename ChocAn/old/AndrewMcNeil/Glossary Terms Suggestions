@@ -1,0 +1,4 @@
+Glossary Terms Suggestion: Worker Validation Use Case
+1. User- any actor using the ChocAn terminals. Their role is attached to their credentials
+2. Credentials- Gives users access to the terminal. For providers it is a provider number. For operators and managers, it is a username and password.
+3. Menu- Interface that allows the user to interact with the software.

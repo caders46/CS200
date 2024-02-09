@@ -1,0 +1,19 @@
+Provider Login Case Description:
+
+Use Case: Provider Login:
+
+Context: Actor is logging on as an Provider
+
+Actors: Provider
+
+Main success scenario: 
+	1. Provider keys 1 to log in as an Provider
+	2. Provider enters Provider number
+	3. The terminal validates the provider number
+	4. The terminal displays a menu with all of the options for providers
+	
+Extensions:
+	2a. Invalid provider number
+		2a.1. The terminal prompts "Incorrect credentials"
+		2a.2. Return to 2.
+	

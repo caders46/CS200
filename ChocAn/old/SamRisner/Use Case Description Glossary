@@ -1,0 +1,13 @@
+Use Case Description Glossary
+
+Generate Provider Directory:
+	ChocAn Data Center creates a provider directory so the providers can find the appropriate number according to the service that is being billed.
+
+Service Code:
+	A number that the provider uses to bill the customer for the service that was provided.
+
+Request Provider Directory:
+	The Provider requests the directory to look up the number of the service that was provided.
+	
+Provider Directory:
+	Lists the service names in alphabetical order with the corresponding service codes and fees

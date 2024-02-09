@@ -1,0 +1,22 @@
+Use Case: Bill Healthcare
+
+Context: The actor intends to bill a customer for a specific healthcare service used through ChocAn.
+
+Actors: Provider
+
+Main Success Scenario:
+	1. The provider enters their provider number and gains access to the terminal.
+	2. The provider passes the customer's member card through the reader and the member is verified by the ChocAn Data Center.
+	3. After being provided a service, the customer's member card is again swiped through the reader.
+	4. The provider keys in the date of service as MM-DD-YYYY.
+	5. The provider uses the Provider Directory and finds the appropriate six digit service code that corresponds with the provided service.
+	6. Provider keys in service code, and name of the service that corresponds with the given code is provided.
+	7. The provider may enter comments about the service.
+	8. The product writes a record to disk including the current date and time (MM-DD-YYYY, HH:MM:SS), the date the service was provided (MM-DD-YYYY), the provider number,
+	the member number, the service code, and any added comments.
+	9. The product finds the fee to be paid and displays it for the provider.
+	10. The provider fills a form including the current date and time, date the service was provided, the member name and number, service code, and fee to be paid.
+	11. At the end of the week the provider totals the fees to verify the amount to be paid to said provider by ChocAn for the week.
+Extensions.
+	1a. The provider enters an invalid login number.
+	6a. Invalid service code entered.

@@ -1,0 +1,17 @@
+Generate Provider Summary Report Use Case Description:
+
+Use Case: Create Provider Summary Report extends Create Reports
+
+Context: The actor intends to create the Provider Summary Report
+
+Actors: Manger, ChocAn Data Center
+
+Main Success Scenario:
+	3d.1. The Create Provider Summary Report is selected to be generated.
+	3d.2. The following data is generated: A list of services the provider has provided that week,
+		  all the same data the provider entered on their form in the order the computer received the data,
+		  and at the end there is a list of all the consultations for said provider along with their total fee for the week.
+	3d.3. The report is saved as a file to the disk.
+	
+Extensions:
+	N/A

@@ -1,0 +1,13 @@
+Use Case: Non-Existent Provider Code extends Bill Healthcare
+
+Context: The actor gives a nonexistent provider code
+
+Actors: Provider
+
+Main Success Scenario: 
+	1. The actor provides a nonexistent provider code to the terminal.
+	2. The terminal displays "Access Denied".
+	3. The terminal returns to the main menu and prompts for the provider code.
+
+Extensions:
+	N/A

@@ -1,0 +1,13 @@
+Use Case: Invalid Member extends Customer Validation
+
+Context: The ChocAn Center tells the Provider that the card number is invalid.
+
+Actors: Provider, ChocAn Center
+
+Main Success Scenario:
+		1. "Invalid number" or "Member suspended" will appear
+		2. Member's fees will be revealed
+		3. Member status will be set to suspended
+		4. Will exit.
+Extension:
+	N/A

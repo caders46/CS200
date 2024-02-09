@@ -1,0 +1,23 @@
+Stereotype Diagram Brainstorm:
+4 Entities:
+	Member
+	Manager
+	Provider
+	Operator
+
+7 Boundaries:
+	Provider Directory
+	Verification
+	Menu
+	Accounts Payable Summary
+	Provider Report
+	Customer Report
+	EFT Data Report
+	
+3 Controllers:
+	Generate Report
+	Bill Health-care
+	Account Management
+		Member
+		Provider
+	

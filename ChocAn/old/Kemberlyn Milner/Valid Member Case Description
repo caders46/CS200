@@ -1,0 +1,12 @@
+Use Case: Valid Member extends Member Validation
+
+Context: The ChocAn Center tells the Provider that the member's card number is valid.
+
+Actors: Provider, ChocAn Center
+
+Main Success Scenario:
+	1. "Validated" will appear
+    2. Will continue to the Provider Directory
+    
+Extensions:
+    N/A

@@ -1,0 +1,6 @@
+cadedw~345 Main Street~TTOWn~AL~35404~987654321~false
+Gavin~894 S Street~Vance~AL~36404~564738291~true
+Cade Dees~958 W Street~BHam~AL~34875~928414751~true
+Joe Bob~69 Cool Street~TTown~AL~14053~777777777~true
+Steve~444 Minecraft St~Nether~NY~66666~909090909~true
+CoolMan~Epic address~EPic~AL~35404~345678091~true

@@ -1,0 +1,44 @@
+Use Case: Membership Management
+Context: The software is operating under a daytime interactive mode for data center operators. A data center operator chooses to make changes to the database regarding a new member or a change or loss of an existing member.
+Actors: ChocAn Data Center Operators
+Main Success Scenario:
+1. The system gives the ChocAn Data Operator the choice of adding, removing, or updating an entry in member records from the Operator Menu.
+2. The ChocAn Data Operator makes their selection and the database is changed according to the input of the operator.
+3. The system returns the user to the main menu or exits the program at the user's discretion.
+Extensions: N/A
+
+Use Case: Add Member extends Membership Management
+Context: The actor intends to add a new member record to the database.
+Actors: ChocAn Data Center Operators
+Main Success Scenario: 
+2a.1. The ChocAn Data Operator selects the Add Member option from the Operator Menu.
+2a.2. A menu comes up which the operator types relevant member information in.
+2a.3. Once the operator is satisfied with the information, he presses the button that confirms the add.
+2a.4. The menu closes and the information input into the menu is compiled into a member record data file that is saved to the Data Center.
+2a.5. The system returns the user to the operator menu or exits the program at the user's discretion.
+Extensions: N/A
+
+Use Case: Remove Member extends Membership Management
+Context: The actor intends to remove an existing member record from the database.
+Actors: ChocAn Data Center Operators
+Main Success Scenario:
+2b.1. The ChocAn Data Operator selects the Remove Member option from the Operator Menu.
+2b.2. A menu comes up which shows a directory of member records.
+2b.3. The operator searches the member records for the member he wants to delete, selects the file, and hits the delete button.
+2b.4. The menu closes and the data file of the chosen member record entry is deleted and purged from the Data Center.
+2b.5. The system returns the user to the operator menu or exits the program at the user's discretion.
+Extensions: N/A
+
+Use Case: Update Member Info extends Membership Management
+Context: The actor intends to alter data in an existing member record in the database.
+Actors: ChocAn Data Center Operators
+Main Success Scenario: 
+2c.1. The ChocAn Data Operator selects the Update Member Info option from the Operator Menu.
+2c.2. A menu comes up which shows a directory of member records.
+2b.3. The operator searches the member records for the member he wants to edit and selects the file.
+2c.4. A menu comes up with the chosen member's relevant information on record.
+2c.5. The operator can freely change the information from this menu. Once satisfied, the operator selects the button to confirm changes.
+2c.6. The menu closes and the data file of the chosen member record entry is deleted and purged from the data center.
+2c.7. The information input into the menu is compiled into a new member record data file that is then saved to the Data Center.
+2c.8. The system returns the user to the operator menu or exits the program at the user's discretion.
+Extensions: N/A

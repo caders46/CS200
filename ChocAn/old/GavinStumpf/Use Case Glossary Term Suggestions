@@ -1,0 +1,9 @@
+Glossary Terms:
+
+1. ChocAn Data Center Operator - An employee of ChocAn that specifically has access to the Data Center capabilities of adding, removing, and editing both member and provider records.
+2. Provider - A health care professional who provides services to ChocAn members.
+3. Member - People who pay a monthly fee to ChocAn for their services.
+4. Provider Record - A data record of information on a given provider that may be found stored in the ChocAn Data Center. May include name, occupation, provider number, etc.
+5. Member Record - A data record of information on a given member that may be found stored in the ChocAn Data Center. May include name, time as a member, member number, etc.
+6. ChocAn Data Center - A large group of networked computer servers used by the ChocAn company for remote storage and processing of data they have.
+7. Daytime Interactive Mode - A feature to be included with the software at ChocAn Data Center. During daytime hours, the software will be open for operators to interact with in order to make changes to member and provider records including adding, removing, and updating records. These capabilities would then not be allowed to the Data Center Operators during night time hours.

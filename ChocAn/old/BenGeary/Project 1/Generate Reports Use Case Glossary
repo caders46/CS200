@@ -1,0 +1,25 @@
+Glossary Terms and Definitions:
+
+From Generate Reports Use Case:
+
+1. Manager- An employee of ChocAn that has access to all reports and can pull them at any time
+2. EFT Data- The electronic funds transfer data provides the information to ChocAn which provider to pay and how much
+3. EFT Data Report- A report that displays the EFT data
+4. Main Accounting Report- A report that contains the week's file of services provided and the amount
+	of money to be transferred
+5. ChocAn Data Center- The main data center that holds and manipulates all of ChocAn's data. Responsible
+	for all automated report generation
+6. Accounts Payable- The amount of money that ChocAn has to pay their providers for the services they
+	provided
+7. Accounts Payable Report- A report that displays all accounts payable information including every provider to be paid 
+	that week, the number of consultations each had, and his or her total fee for that week. It also includes the total number 
+	of providers who provided services that week, the total number of consultations that week, and the total amount of fees to be paid that week
+8. Provider Summary- A summary of all services provided by the ChocAn provider for that week
+9. Provider Summary Report- A report that contains the provider summary and includes a list of services the provider has provided that week. It includes all the same
+		information the provider entered on their form in the order in which the computer received the inputs. At the end of the report there is a summary
+		with the total number of consultations for that providers and the total fee for that week.
+10. Customer Report- A report that includes a list of all services provided to the customer for that week, sorted by the date of service. It also 
+		includes Member Name, Member Number, Member Street Address, Member City, Member State, Member Zip Code, and for each service provided it includes date
+		of service, provider name, and service name.
+		
+

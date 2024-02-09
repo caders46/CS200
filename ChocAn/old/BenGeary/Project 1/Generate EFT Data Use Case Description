@@ -1,0 +1,15 @@
+Create EFT Data Report Use Case Description:
+
+Use Case: Create EFT Data Report extends Create Reports
+
+Context: The actor intends to create the EFT Data Report
+
+Actors: Manager, ChocAn Data Center
+
+Main Success Scenario:
+	3a.1. The Create EFT Data Report option is selected.
+	3a.2. The following data is generated: Provider name, provider number, and amount of money to be transfered.
+	3a.3. The report is saved as a file to the disk.
+
+Extensions:
+	N/A

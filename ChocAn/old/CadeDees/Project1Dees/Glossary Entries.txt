@@ -1,0 +1,8 @@
+Glossary Entries - Dees
+
+Provider: A specific healthcare provider that works under ChocAn.
+Member: An individual who pays for a ChocAn membership and uses ChocAn's services.
+Provider number: A number in the ChocAn Data Center that corresponds with a specific provider of healthcare services at ChocAn.
+Member card: Each member has a card that has information about that member: A nine digit code as well as the member's name and other encoded information.
+Service code: A six digit number that corresponds with a specific healthcare service provided by ChocAn.
+Provider Directory: A directory in the ChocAn Data Center that allows access to all healthcare service codes.

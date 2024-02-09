@@ -1,0 +1,57 @@
+Trina Locklear
+111111111
+22 The Lab Ct
+Tuscaloosa
+AL
+35404
+09/23/2023
+01:30:24
+cadedw
+987654321
+123456
+523.12
+Number of visits: 1
+Amount to be paid: 523.12
+
+Akhlak Azman
+222222222
+23 The Lab Ct
+Tuscaloosa
+AL
+35404
+09/23/2023
+01:45:12
+cadedw
+987654321
+123456
+523.12
+Number of visits: 1
+Amount to be paid: 523.12
+
+Ben T. Geary
+333333333
+123 Main Street
+Tuscaloosa
+AL
+31023
+04-17-2023
+16:55:45
+Joe Bob
+777777777
+123456
+523.12
+04-17-2023
+16:55:45
+Joe Bob
+777777777
+123456
+523.12
+04-17-2023
+16:55:45
+Joe Bob
+777777777
+123456
+523.12
+Number of visits: 3
+Amount to be paid: 1569.3600000000001
+

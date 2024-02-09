@@ -1,0 +1,24 @@
+Stereotyped Classes
+
+Member Class - Entity
+Provider Class - Entity
+
+MemberList - Entity
+ProviderList - Entity
+
+Record Control - Control
+	Generalization of
+		Provider Record - Control
+		Member Record - Control
+		
+Provider Directory - Entity
+
+
+Terminal Menu - Boundary
+(Could narrow down into multiple boundaries as needed)
+	Ex: Boundary for Validation
+		Boundary for Reports
+		Boundary for Billing
+		Boundary for Record Management
+		
+Each Report Email is a Boundary Class

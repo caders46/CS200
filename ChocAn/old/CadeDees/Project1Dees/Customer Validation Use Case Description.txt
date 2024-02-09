@@ -1,0 +1,13 @@
+Use Case: Bill Healthcare includes Customer Validation
+
+Context: The actor wants to validate the customer via swipe card
+
+Actors: Provider
+
+Main Success Scenario: 
+	1. The actor swipes the customer's card.
+	2. The associated customer number is found in the Data Center and recognized as valid.
+	3. The process of billing healthcare proceeds.
+
+Extensions:
+	2a. The associated customer number is not found in the Data Center or it is found and identified as suspended.

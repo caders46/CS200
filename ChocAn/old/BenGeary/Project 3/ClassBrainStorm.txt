@@ -1,0 +1,21 @@
+Interfaces:
+	Login
+	Manager
+	Operator
+	Provider
+
+Data Classes:
+	Member Info
+	Provider Info
+	Weekly Services Data
+
+Controller Classes:
+	Provider Controller
+		-Bill Healthcare
+		-validate customer
+		-request provider directory
+	Manager Controller
+		-generate reports
+	Operator Controller
+		-member manage
+		-provider manage

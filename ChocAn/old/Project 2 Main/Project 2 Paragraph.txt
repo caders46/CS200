@@ -1,0 +1,8 @@
+In order for the Chocoholics Anonymous system to operate effectively there needs to be 
+requirements met. The system will primarily be computerized with the data storage, interface, 
+and reporting all being digital. The data will be stored at the Chocoholics Anonymous Data 
+Center and interacted with via the software on both Provider and Manager terminals. In regards 
+to hardware, computer terminals are required to run and interact with the software. Data storage 
+servers will also be required at the Chocoholics Anonymous Data Center. The system will 
+interact with the external systems of ACME Accounting Services and the communications 
+system (i.e. email, etc.). Continuous analysis may be needed throughout development.

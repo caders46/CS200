@@ -1,0 +1,26 @@
+Chocoholics Anonymous is a program that offers subscribing members unlimited access to various chocolate addiction 
+therapies. The software solution provided to Chocoholics Anonymous provides a wide variety of functionality to assist 
+in most of the day-to-day operations for providers, members, and data center operators. Our team consists of 6 
+members, and we will create this program using Java in a 14 week timeframe. Providers can access the software to 
+record patient visits, validate member status, and bill Chocoholics Anonymous for expenses incurred during a visit. 
+To maintain separate provider accounts, the software allows providers to log on using their provider number, which is
+validated by the software. We also assumed such functionality would be required for Chocoholics Anonymous database 
+operators as well as the Chocoholics Anonymous managers. Hence, we created Chocoholics Anonymous worker validation 
+use cases where any worker is validated. This determines their permissions inside the Chocoholics Anonymous Data 
+Processing Software. Along with this concept, we made the assumption on how to handle invalid logins for Chocoholics 
+Anonymous workers. This is included as an extension under the Chocoholics Anonymous Worker Validation use case. The 
+software also provides functionality for data center operators to edit the membership list and provider list. 
+Specifically, they can add, remove, and update information for these individuals. Additionally, managers can request 
+and receive reports about data at any time. We included a Timer actor to be the actor in all cases where the reports 
+are auto-generated, specifically with the Run Main Accounting Procedure use case. This timer goes off every Friday 
+at midnight and all the reports for that week are generated and saved. The use case descriptions, diagram, and 
+glossary were assembled via divide and conquer–each team member compiled all use case descriptions and glossary terms 
+related to a particular topic. Together, we merged and condensed all of these terms and diagrams into a master 
+glossary and team use case diagram. The diagram was revised multiple times as we discussed and uncovered the 
+intricacies of making use case diagrams. Through multiple revisions and communications with the TA, we created a 
+final diagram where then the use case descriptions were based off of. For the glossary, once we merged all the terms, 
+we then went back and revised the list, making sure to include any forgotten terms. The use case diagram was created 
+with access control in mind. We wanted to ensure that different actors were only able to complete tasks that fit 
+their roles. In order to accomplish this, we included many validation use cases. Overall, we believe the use case 
+diagram and descriptions presented below not only provide a complete solution for the requirements laid out by the 
+customer, but also the additional functionality that the customer needs for ease of access and security.

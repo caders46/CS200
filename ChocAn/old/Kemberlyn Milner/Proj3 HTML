@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Team 9 Project 3 Report</title>  
+	</head>
+
+	<body style="background-color:lavender;">
+        <style>
+            h3  {
+                color: rgb(176,196,222);
+                font-size: 45px;
+                font-family: "Kartika";
+                border: 3px solid black;
+                text-align:center;
+                }
+            h2 {
+                color: rgb(135,206,235);
+                font-size: 25px;
+                font-family: "Kartika";
+            }
+            table {
+                font-family: Kartika, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+    
+            td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            }
+    
+            tr:nth-child(even) {
+            background-color: #dddddd;
+            }
+	</style>
+			<h3 name="ProjectHeader">Project 3 Report</h3>
+			<hr>
+			<h2 name="HeaderTable (Submitter Gavin Stumpf)">Header Table</h2>
+
+		<table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>CWID</th>
+                <th>Time Spent</th>
+            </tr>
+            <tr>
+                <td>Benjamin Geary</td>
+                <td>btgeary@crimson.ua.edu</td>
+                <td>11872951</td>
+                <td>9 hours</td>
+            </tr>
+            <tr>
+                <td>cadedw McNeil</td>
+                <td>acmcneil1@crimson.ua.edu</td>
+                <td>12127896</td>
+                <td>9 hours</td>
+            </tr>
+            <tr>
+                <td>Gavin Stumpf (Submitter) </td>
+                <td>gstumpf@crimson.ua.edu</td>
+                <td>12176730</td>
+                <td>9 hours</td>
+            </tr>
+            <tr>
+                <td>Sam Risner</td>
+                <td>sarisner@crimson.ua.edu</td>
+                <td>12225170</td>
+                <td>9 hours</td>
+            </tr>
+            <tr>
+                <td>Kemberlyn Milner</td>
+                <td>ktmilner@crimson.ua.edu</td>
+                <td>11976520</td>
+                <td>9 hours</td>
+            </tr>
+            <tr>
+                <td>Cade Dees</td>
+                <td>cdees@crimson.ua.edu</td>
+                <td>12274622</td>
+                <td>9 hours</td>
+            </tr>
+        </table>
+
+        <hr>
+			
+            <h2 name="TaskTable">Task Distribution Table</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Tasks</th>
+                <th>Percentage</th>
+
+            </tr>
+            <tr>
+                <td>Benjamin Geary</td>
+                <td>Personal Class Diagram, Generate Reports Sequence Diagram, Written Paragraph, Updated Use Case Descriptions, Updated Activity Diagrams, Personal HTML</td>
+                <td>16.67%</td>
+
+            </tr>
+            <tr>
+                <td>cadedw McNeil</td>
+                <td>Personal Class Diagram, Verification Sequence Diagrams, Written Paragraph, Updated Use Case Descriptions, Updated Activity Diagrams, Personal HTML</td>
+                <td>16.67%</td>
+
+            </tr>
+            <tr>
+                <td>Gavin Stumpf</td>
+                <td>Main Class Diagram, Member Management and Provider Management Sequence Diagrams, Written Paragraph, Updated Use Case Descriptions, Updated Activity Diagrams, Group HTML (Submitter)</td>
+                <td>16.67%</td>
+
+            </tr>
+            <tr>
+                <td>Sam Risner</td>
+                <td>Personal Class Diagram, Main Accounting Procedure Sequence Diagram, Written Paragraph, Updated Use Case Descriptions, Updated Activity Diagrams, Personal HTML</td>
+                <td>16.67%</td>
+
+            </tr>
+            <tr>
+                <td>Kemberlyn Milner</td>
+                <td>Personal Class Diagram, Customer Validation and Provider Directory Sequence Diagrams, Written Paragraph, Updated Use Case Descriptions, Updated Activity Diagrams, Personal HTML</td>
+                <td>16.67%</td>
+
+            </tr>
+            <tr>
+                <td>Cade Dees</td>
+                <td>Personal Class Diagram, Bill Healthcare Sequence Diagram, Written Paragraph, Updated Use Case Descriptions, Updated Activity Diagrams, Personal HTML</td>
+                <td>16.67%</td>
+
+            </tr>
+        </table>
+
+        <hr>
+
+
+	</body>
+    <h2>Kemberlyn's Personal Class Diagram</h2>
+    <img src="https://live.staticflickr.com/65535/52782168000_945813499d_z.jpg" width="800" height="800" alt="class diagram"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>        	
+</body>
+
+<tr>    
+<h2>Kemberlyn's Sequence Diagram for the Provider Directory </h2>
+<img src="https://live.staticflickr.com/65535/52781219857_87d6bfe296_z.jpg" width="1000" height="1000" alt="Seq Cust Valid"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</body>
+<tr>    
+    <h2>Kemberlyn's Sequence Diagram for the Customer Validation</h2>
+    <img src="https://live.staticflickr.com/65535/52781219857_87d6bfe296_z.jpg" width="1000" height="1000"  alt="Seq Cust Valid"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+	</body> 
+</html>
